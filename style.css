@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #183131;
+    padding: 20px 0px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 200%;
+    padding: 10px 0;
+    margin-bottom: 0px;
+    letter-spacing: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header nav {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(12, 48, 43);
+    padding: 10px 0px;
+
+}
+
+header nav div {
+    padding: 0px 50px;
+    height: auto;
+}
+
+header nav div a {
+    text-decoration: none;
+}
+
+nav div a {
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container {
+    /* border: 1px solid black; */
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+
+}
+
+.container div {
+    /* border: 1px solid red; */
+    width: auto;
+    padding: 10px;
+    text-align: justify;
+    height: 60vh;
+
+
+}
+
+.main-container div {
+
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+    width: auto;
+    height: 80%;
+}
+.side-container{
+    border-left: 1px solid gray;
+}
+.side-container{
+    margin: 0;   
+}
+.side-container ul{
+    margin: 0%;
+    padding: 0px 0px;
+}
+.side-container ul li{
+    list-style: none;
+    text-align: center;
+    margin: 5px 0px;
+    margin-bottom: 10px;
+    padding: auto;
+    /* border-bottom: 1px solid gray; */
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+/* footer */
+footer{
+    
+    border: 1px solid black;
+    padding: 5px 0px 0px 0px;
+    background: #183131;
+}
+
+footer div{
+    width: auto;
+
+}
+
+footer div p{
+   height: 30px;
+   padding: 0 100px;
+   letter-spacing: 1px;
+}
+
+#Contact{
+    float: left;
+}
+
+#products{
+    float: left;
+}
+#newsletters{
+    float: right;
+}
+
+#footer-title{
+    clear: both;
+    text-align: center;
+    background: #4b999959;
+  padding: 1px;
+}
+.h5{
+    margin-top: 10px;
+}
